@@ -6,6 +6,7 @@ class Test6 ():
     def add_arrays(self):
         L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         ddd = 0
+        L[2] += L[0]
         for a in L:
             ddd = ddd + a
         cum = ddd * 2
